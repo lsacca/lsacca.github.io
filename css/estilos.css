@@ -14,6 +14,15 @@
 		opacity: 1;
 	}
 }
+@keyframes avion {
+		0% {transform: translate(-3200px);}
+		100% {transform: translate(1200px);}
+}
+/*@keyframes avion2 {
+		0% {transform: translate(-2200px);}
+		100% {transform: translate(1200px);}
+}*/
+
 /*@keyframes anim3{
 	0% {
 		background-color: #edeeee;
@@ -456,7 +465,7 @@ footer {
 .temporal {
 	display: flex;
 	justify-content: center;
-	margin-top: 0px;
+	margin-top: 10px;
 }
 .seleccionado{
 	background-color: #edeeee;
@@ -685,7 +694,27 @@ section{
 	font-family: arcon;
 	font-size: 30px;
 }
-
+.avion{ 
+	width: 50px;
+	bottom: 0%;
+	right: -5%;
+	animation-name: avion;
+	animation-duration: 9s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	}
+/*.avion2{ 
+	width: 50px;
+	bottom: 40%;
+	right: 90%;
+	animation-name: avion2;
+	animation-duration: 9s;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	}*/
+.avion, .avion2 {position: absolute;}
 /*MEDIA QUERIES*/
 
 @media screen and (min-width: 1201px) {
