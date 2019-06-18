@@ -1,0 +1,772 @@
+@keyframes anim1 {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0.7;
+	}
+}
+@keyframes anim2 {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+/*@keyframes anim3{
+	0% {
+		background-color: #edeeee;
+		opacity: 0;
+		
+	}
+	100% {
+		background-color: #edeeee
+		opacity:1;
+	}
+}*/
+
+@font-face {
+  font-family: "arcon";
+  src: url("../arcon-2/Arcon-Regular.otf");}
+
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arcon;
+	background-image: url(../img/fondototal.jpg);
+}
+
+
+.primercontenedor {
+	display: flex; 
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+header {
+	background-color: #edeeee;
+}
+
+
+.logo { text-align: center; }
+.redes {
+	display: flex;
+	align-self: center;
+	margin-left: 10px;
+}
+.red1 a:hover{
+	animation-name: anim1;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-fill-mode:forwards;
+}
+.red2 a:hover{
+	animation-name: anim1;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-fill-mode:forwards;
+}
+.red3 a:hover{
+	animation-name: anim1;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-fill-mode:forwards;
+}
+.red4 a:hover{
+	animation-name: anim1;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-fill-mode:forwards;
+}
+.red5 a:hover{
+	animation-name: anim1;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-fill-mode:forwards;
+}
+
+.suscribite {
+	margin-right: 50px;
+	align-self: center;	
+
+}
+.suscribite a {
+	font-family: arcon;
+	font-weight: bold;
+	padding: 15px;
+	color: black;
+	text-decoration: none;
+	list-style: none;
+	border-radius: 5px;
+	transition-duration:1s;
+	transition-property: background-color, color;
+	transition-delay: 0s, 0s;
+
+}
+
+.suscribite a:hover {
+	background-color: darkgrey;
+	color: white;
+	font-weight: bold;
+	text-decoration:none;
+
+}
+
+
+
+/* COMO HACER PARA QUE LA BARRA TENGA UN ANCHO TOTAL DEL 100% */
+.menu {
+	display: flex; 
+	
+}
+.nav {
+	margin-top: 15px;
+	background-color: #edeeee;
+	width: 100%;
+	justify-content: center;
+}
+.nav li {
+
+	padding: 15px 50px;
+	list-style: none;
+
+}
+.nav li a {
+	color: black;
+	text-decoration: none;
+	padding: 15px 30px;
+	border-radius: 5px;
+	transition-duration:1s;
+	transition-property: background-color;
+	transition-delay: 0s;
+}
+.nav li a:hover{
+	/*border-bottom: #66FF33 solid medium;*/
+	background-color: grey;
+	color: #edeeee;
+	font-weight: bold;	
+}
+
+
+.container {
+	margin-top: 30px;
+	position: relative;
+}
+
+.botonslider {
+	position: absolute;
+	top: 350px;
+	right: 150px;
+	
+}
+
+.botonslider button {
+padding-right: 50px;
+padding-left: 50px;
+}
+
+.botonslider2 {
+	position: absolute;
+	top: 250px;
+	left: 150px;
+	
+}
+
+.botonslider2 button {
+padding-right: 50px;
+padding-left: 50px;
+}
+
+.botonslider3 {
+	position: absolute;
+	top: 420px;
+	right: 150px;
+	
+}
+
+.botonslider3 button {
+padding-right: 50px;
+padding-left: 50px;
+}
+.cuadros1 {
+	display: flex; 
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+
+
+.cuadros {
+	display: flex; 
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.cuadrosself {
+	align-content: space-around;
+	/*background-color: #edeeee;*/
+	width: 500px;
+	height: 600px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 20px;
+   	display: flex;
+  	justify-content: center;
+  	align-items: center;
+   	position: relative;
+
+}
+.cuadrosself img {
+	transition-duration:1s;
+	transition-property: opacity;
+	transition-delay: 0s;
+}
+.cuadrosself a {
+	padding-right: 1px;
+	padding-left: 1px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	
+}
+.cuadrosself a h2 {
+	text-align: center;
+	text-decoration: none;
+	color: black;
+
+}
+.cuadrosself h2 {
+	display: none;
+	position: absolute;
+	text-align: center;
+	opacity: 0;
+	transition-duration:2s;
+	transition-property: opacity;
+	transition-delay: 2s;
+
+}
+.cuadrosself:hover h2, .cuadrosself:hover a { display:block; }
+.cuadrosself:hover img {
+	animation-name: anim1;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-fill-mode:forwards;}
+.cuadrosself:hover h2 {
+	animation-name: anim2;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-fill-mode:forwards;}
+
+.pie {
+	background-color: #edeeee;
+}
+footer {
+	background-color: #edeeee;
+}
+.footer {
+	background-color: #edeeee;
+	height: 100px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.col-lg-3 img{
+	margin-top: 10px; 
+}
+.redes2 {
+	display: flex;
+	padding-top: 60px;
+	background-color: #edeeee;
+	width: 150%;
+}
+.redes2 img {
+	margin-left: 0px;
+}
+
+.footer h3{
+	font-size: 15px;
+	text-align: center;
+	background-color: #edeeee;
+}
+.area {
+	background-color: #edeeee;
+}
+
+.bloquepers {
+	padding-top: 30px;
+	display: flex; 
+	flex-direction: row;
+	justify-content: space-around;
+	margin-bottom: 50px;
+}
+
+.bloquepersonajes {
+	position: relative;
+}
+
+.bloquepersonajes img {
+	transition-duration:1s;
+	transition-property: opacity;
+	transition-delay: 0s;
+}
+
+.bloquepersonajes a h2 {
+	text-align: center;
+	text-decoration: none;
+	color: black;
+
+
+}
+.bloquepersonajes h2 {
+	display: none;
+	font-size: 50px;
+	position: absolute;
+	top: 40%;
+	left: 100px;
+	text-align: center;
+	opacity: 0;
+	transition-duration:2s;
+	transition-property: opacity;
+	transition-delay: 2s;
+
+
+}
+.bloquepersonajes:hover h2, .bloquepersonajes:hover a { display:block; }
+.bloquepersonajes:hover img {
+	animation-name: anim1;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-fill-mode:forwards;}
+.bloquepersonajes:hover h2 {
+	animation-name: anim2;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-fill-mode:forwards;}
+
+.boton{
+	display: flex; 
+	justify-content: center;
+}
+.boton a{
+	border: solid black thin;
+	margin: auto;
+	background-color: #edeeee;
+	color:black;
+	text-decoration: none;
+	padding: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: inline-block;
+	border-radius: 5px;
+	transition-duration:1s;
+	transition-property: background-color, color, padding;
+	transition-delay: 0s, 0s, 0s;
+}
+.boton a:hover {
+	background-color: black;
+	color: white;
+	padding: 10px 180px;
+	text-decoration: none;
+}
+
+
+.titulo h1{
+	width: 100%;
+	margin-top: 30px;
+	text-align: center;
+	color: black;
+	background-color: #edeeee;
+}
+
+
+.col-lg-8 {
+	padding-top: 10px;
+	margin-bottom: 10px;
+	
+
+}
+.col-lg-8 p{
+	padding-top: 50px;
+	color: black;
+	font-size: 17px;
+	height: 200px;
+	text-align: justify;
+}
+
+.botones {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.botones a {
+	background-color: black;
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	transition-duration:0.5s;
+	transition-property: background-color, color, padding;
+	transition-delay: 0s, 0s, 0s;
+}
+
+.botones a:hover{
+	border: solid black thin;
+	background-color: #edeeee;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	padding: 15px 500px 15px 500px;
+
+}
+.ultimo {
+	margin-top: 100px;
+}
+
+
+.temporadas p{
+	color: black;
+	font-family: arcon; 
+}
+
+.tabla {
+	display: flex; 
+	justify-content: center;
+}
+.tabla2 {
+
+	display: flex; 
+	justify-content: center;
+	margin-bottom: 5px;
+}
+
+
+
+.temporal {
+	display: flex;
+	justify-content: center;
+	margin-top: 0px;
+}
+.seleccionado{
+	background-color: #edeeee;
+}
+.seleccionado button {
+	color: black;
+	font-weight: bold;
+}
+.contenedor-boton {
+	padding-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+/* ---- NO SE COMO MODIFICAR EL CSS DE ESTE BOTON ---- */
+
+
+.cronologia {
+	display: flex;
+}
+
+.cronologia p{
+	
+	margin-top: 30px;
+	font-family: arcon;
+	font-weight: thin;
+	text-align: justify;
+}
+
+
+.sucesouno{
+	color: black;
+	font-family: arcon;
+	font-weight: thin;
+	margin-bottom: 30px;
+}
+.sucesouno h4 {
+	background-color: #edeeee;
+}
+.sucesouno h5 {
+	font-weight: bold;
+}
+.sucesodos{
+	color: black;
+	font-family: arcon;
+	font-weight: thin;
+	margin-bottom: 30px;
+
+}
+.sucesodos h4 {
+	background-color: #edeeee;
+}
+.sucesodos h5 {
+	font-weight: bold;
+}
+.sucesotres{
+	color: black;
+	font-family: arcon;
+	font-weight: thin;
+	margin-bottom: 30px;
+
+}
+.sucesotres h4 {
+	background-color: #edeeee;
+}
+.sucesotres h5 {
+	font-weight: bold;
+}
+
+.sucesocuatro{
+	color: black;
+	font-family: arcon;
+	font-weight: thin;
+	margin-bottom: 30px;
+
+}
+.sucesocuatro h4 {
+	background-color: #edeeee;
+}
+.sucesocuatro h5 {
+	font-weight: bold;
+}
+
+.sucesocinco{
+	color: black;
+	font-family: arcon;
+	font-weight: thin;
+	margin-bottom: 30px;
+
+}
+.sucesocinco h4 {
+	background-color: #edeeee;
+}
+.sucesocinco h5 {
+	font-weight: bold;
+}
+#maspersonajes {
+	text-align: left;
+}
+.videos{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+} 
+.videos2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.video1, .video2, .video3, .video4, .video5, .video6 {
+	margin-top: 20px;
+}
+.experiencia {
+	justify-content: center;
+}
+.experiencia p{
+	text-align: center;
+	color: black;
+	font-family: arcon;
+	font-size: 20px;
+}
+
+.experiencia img {
+	margin-left: 40%;
+}
+
+.fase {
+	color: black;
+	font-family: arcon;
+	font-weight: thin;
+	margin-top: 30px;
+}
+.fase h4 {
+	text-align: center;
+	background-color: #edeeee;
+}
+.fase p {
+	font-size: 18px;
+	text-align: justify;
+}
+.fase img {
+	margin-left: 25%;
+}
+#maspersonajes2 {
+	text-align: left;
+}
+.srilanka {
+	text-align: center;
+}
+.full img {
+	margin-left: 10%;
+}
+
+.formulario{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 60px;
+	margin-top: 20px;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	font-family: arcon;
+	font-size: 20px;
+		background-color: #edeeee;
+
+
+}
+.contendio {
+	background-color: #edeeee;
+	
+
+}
+.contenido h1{
+	text-align: center;
+
+}
+
+.col-5, .col-3 , .col-4, .col-12{
+	background-color: #edeeee;
+
+}
+section{
+	background-color: #edeeee;
+}
+
+.enviar input {
+	margin-top: 10px;
+	text-align: center;
+	background-color: black;
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	transition-duration:0.5s;
+	transition-property: background-color, color, padding;
+	transition-delay: 0s, 0s, 0s;
+}
+.enviar input:hover{
+	border: solid black thin;
+	background-color: #edeeee;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 100px 10px 100px;
+
+}
+
+.form-enviado {
+
+	background-color: black;
+	padding-bottom: 100px;
+	padding-top: 100px;
+	margin-bottom: 120px;
+	margin-top: 150px;
+
+}
+.form-enviado h1 {
+	text-align: center;
+	color: #edeeee;
+	font-family: arcon;
+	font-size: 40px;
+}
+
+.form-enviado h2 {
+	text-align: center;
+	color: #edeeee;
+	font-family: arcon;
+	font-size: 30px;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 1201px) {
+	.cuadros1{justify-content: space-around;}
+	.bloquepers {justify-content: space-around}
+
+}
+/*Dispositivos large*/
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+
+	.menu ul li {flex-wrap: nowrap;}
+	.cuadros1{justify-content: space-around;}
+	.primercontenedor {flex-wrap: wrap;}
+	.bloquepers {flex-wrap: wrap;width: 100%;}
+	.bloquepersonajes  { margin-top: 5px; }
+	.botones a:hover{padding: 15px 300px 15px 300px;}
+	.cuadros {justify-content: space-around; flex-wrap: wrap;}
+	.fase img {width: 100%; margin-left: 0px;	}
+	.full img{ width: 100%; margin-left: 0px; }
+
+}
+
+
+
+/*Dispositivos medium*/
+@media (min-width: 600px) and (max-width: 990px){
+
+	.primercontenedor {flex-wrap: wrap;}
+	.redes {display: none;}
+	.menu ul li {display: block; width: 100%; text-align: center;}
+	.cuadros1{flex-wrap: wrap;width: 100%;}
+	.banner {display: none;}
+	.redes2 {width: 40%;}
+	.bloquepers {flex-wrap: wrap;width: 100%;}
+	.bloquepersonajes { margin-top: 5px; }
+	.col-md-12 img { flex-wrap: wrap; margin-left: 250px;}
+	.col-md-1 {display: none;} 
+	.botones a:hover{padding: 15px 200px 15px 200px;}
+	.cuadros {justify-content: space-around; flex-wrap: wrap;}
+	.fase img {width: 100%; margin-left: 0px;	}
+	.full img{ width: 100%; margin-left: 0px; }
+
+
+}
+
+/*Dispositivos small*/
+@media (min-width: 0px) and (max-width: 599px){
+
+	.menu ul li {display: block; width: 100%; text-align: center;}
+	.primercontenedor {flex-wrap: wrap;}
+	.banner {display: none;}
+	.redes {display: none;}
+	.redes2 {width: 40%;}
+	.cuadros1{flex-wrap: wrap; width: 100%;}
+	.area col-4 {display:flex; justify-content: center; align-content: center;}
+	.enviar input:hover{padding: 50px 10px 50px 10px;}
+	.bloquepersonajes { margin-top: 5px;  }
+	.bloquepers {flex-wrap: wrap;width: 100%;}
+	.col-md-12 img { flex-wrap: wrap; margin-left: 150px;margin-top: 60px; margin-bottom: 10px;}
+	.col-md-12 p {  margin-bottom: 50px;}
+	.botones a:hover{padding: 15px 150px 15px 150px;}
+	.cuadros {justify-content: space-around; flex-wrap: wrap;}
+	.fase img {width: 100%; margin-left: 0px;	}
+	.full img{ width: 100%; margin-left: 0px; }
+	.srilanka {display: none;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
