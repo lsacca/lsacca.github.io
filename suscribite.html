@@ -59,21 +59,19 @@
         <label for="email">Email:</label>
         <input type="email" name="email" id="email" required placeholder="email"/>
         </div>
-        <!--<label>Género</label> 
-        <input type="radio" name="sexo" value="1" id="sexo_0" /> Femenino   <input type="radio" name="sexo" value="1" id="sexo_0" /> Masculino -->
-<br>
-<br>
-        <div class="demograficos2">
-        <label>Género:</label>
-        <input class="form-check-input" type="radio" name="Radio" id="radio-form" value="option1" checked>
-        <label class="form-check-label" for="radio-form">
-         Femenino
-         </label>
-        <input class="form-check-input" type="radio" name="Radio" id="radio-form" value="option1" checked>
-        <label class="form-check-label" for="radio-form">
-         Masculino
-         </label>
-        </div>
+       
+<div class="demograficos2">
+ <label for="email">Sexo:</label>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio"  name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  <label class="form-check-label" for="inlineCheckbox1">Femenino</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name= "inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineCheckbox2">Masculino</label>
+</div>
+</div>
+
 
 
         <div class="region">
@@ -88,6 +86,7 @@
             <option value="PER">Per&uacute;</option>
         </select>
         </div>
+        <br>
         <div class="infoserie">
         <label>Quiero que me envíen información de la temporada: </label><br>
         <input type="checkbox" name="Preferencia" value="1" id="temp1" />Uno
