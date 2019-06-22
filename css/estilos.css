@@ -735,7 +735,8 @@ section{
 	.cuadros {justify-content: space-around; flex-wrap: wrap;}
 	.fase img {width: 100%; margin-left: 0px;	}
 	.full img{ width: 100%; margin-left: 0px; }
-
+	.avion { z-index: 2; }
+	.temporal { z-index: 1;  }
 }
 
 
