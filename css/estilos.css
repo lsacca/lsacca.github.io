@@ -37,7 +37,7 @@
 
 
 @font-face{
-    src:url("../arcon-2/Arcon-Regular.otf");/*Donde esta la fuente*/
+    src:url("arcon-2/Arcon-Regular.otf");/*Donde esta la fuente*/
     font-family: "Arcon";/*Cual es el nombre de la fuente*/
 }
 
