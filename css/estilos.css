@@ -36,11 +36,10 @@
 }*/
 
 
-
-
-
-
-
+@font-face{
+    src:url("fonts/Arcon-Regular.otf");/*Donde esta la fuente*/
+    font-family: "Arcon";/*Cual es el nombre de la fuente*/
+}
 
 
 
