@@ -261,6 +261,8 @@ padding-left: 50px;
 .cuadrosself h2 {
 	display: none;
 	position: absolute;
+	top: 100px;
+	left: 0px;
 	text-align: center;
 	opacity: 0;
 	transition-duration:2s;
