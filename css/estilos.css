@@ -37,7 +37,7 @@
 
 
 @font-face{
-    src:url(".../arcon-2/Arcon-Regular.otf");/*Donde esta la fuente*/
+    src:url("arcon-2/Arcon-Regular.otf");/*Donde esta la fuente*/
     font-family: "arcon";/*Cual es el nombre de la fuente*/
 }
 
@@ -452,7 +452,7 @@ footer {
 
 .temporadas p{
 	color: black;
-	font-family: Arcon; 
+	font-family: "arcon", "Montserrat", "sans-serif"; 
 }
 
 .tabla {
@@ -495,7 +495,7 @@ footer {
 .cronologia p{
 	
 	margin-top: 30px;
-	font-family: Arcon;
+	font-family: "arcon", "Montserrat", "sans-serif";
 	font-weight: thin;
 	text-align: justify;
 }
@@ -503,7 +503,7 @@ footer {
 
 .sucesouno{
 	color: black;
-	font-family: Arcon;
+	font-family: "arcon", "Montserrat", "sans-serif";
 	font-weight: thin;
 	margin-bottom: 30px;
 }
@@ -515,7 +515,7 @@ footer {
 }
 .sucesodos{
 	color: black;
-	font-family: Arcon;
+	font-family: "arcon", "Montserrat", "sans-serif";
 	font-weight: thin;
 	margin-bottom: 30px;
 
@@ -528,7 +528,7 @@ footer {
 }
 .sucesotres{
 	color: black;
-	font-family: Arcon;
+	font-family: "arcon", "Montserrat", "sans-serif";
 	font-weight: thin;
 	margin-bottom: 30px;
 
@@ -542,7 +542,7 @@ footer {
 
 .sucesocuatro{
 	color: black;
-	font-family: Arcon;
+	font-family: "arcon", "Montserrat", "sans-serif";
 	font-weight: thin;
 	margin-bottom: 30px;
 
@@ -556,7 +556,7 @@ footer {
 
 .sucesocinco{
 	color: black;
-	font-family: Arcon;
+	font-family: "arcon", "Montserrat", "sans-serif";
 	font-weight: thin;
 	margin-bottom: 30px;
 
@@ -589,7 +589,7 @@ footer {
 .experiencia p{
 	text-align: center;
 	color: black;
-	font-family: Arcon;
+	font-family: "arcon", "Montserrat", "sans-serif";
 	font-size: 20px;
 }
 
@@ -599,7 +599,7 @@ footer {
 
 .fase {
 	color: black;
-	font-family: Arcon;
+	font-family: "arcon", "Montserrat", "sans-serif";
 	font-weight: thin;
 	margin-top: 30px;
 }
@@ -632,7 +632,7 @@ footer {
 	margin-top: 20px;
 	padding-top: 40px;
 	padding-bottom: 30px;
-	font-family: Arcon;
+	font-family: "arcon", "Montserrat", "sans-serif";
 	font-size: 20px;
 		background-color: #edeeee;
 
@@ -690,14 +690,14 @@ section{
 .form-enviado h1 {
 	text-align: center;
 	color: #edeeee;
-	font-family: Arcon;
+	font-family: "arcon", "Montserrat", "sans-serif";
 	font-size: 40px;
 }
 
 .form-enviado h2 {
 	text-align: center;
 	color: #edeeee;
-	font-family: Arcon;
+	font-family: "arcon", "Montserrat", "sans-serif";
 	font-size: 30px;
 }
 
