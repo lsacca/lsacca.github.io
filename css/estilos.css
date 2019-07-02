@@ -38,18 +38,18 @@
 
 @font-face{
     src:url("arcon-2/Arcon-Regular.otf");/*Donde esta la fuente*/
-    font-family: "Arcon";/*Cual es el nombre de la fuente*/
+    font-family: "arcon";/*Cual es el nombre de la fuente*/
 }
 
 html{
-	font-family: Arcon;
+	font-family: arcon;
 
 }	
 
 body{
 	margin: 0;
 	padding: 0;
-	font-family: Arcon;
+	font-family: arcon;
 	background-image: url(../img/fondototal.jpg);
 }
 
@@ -112,7 +112,7 @@ header {
 
 }
 .suscribite a {
-	font-family: Arcon;
+	font-family: arcon;
 	font-weight: bold;
 	padding: 15px;
 	color: black;
